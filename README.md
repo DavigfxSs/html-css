@@ -1,5 +1,5 @@
 # html-css
- Projectes used to study contents how html e css 
+ Projectes used to study contents how html e css 📖
 
 ### This repository have a content what i used to apply my knowledge of html5 and css3, goes was made very challenges of difficulty progressive, and i getting add more knowledge and experience with time.
 
