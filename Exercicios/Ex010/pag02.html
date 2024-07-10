@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com outras imagens</title>
+</head>
+<body>
+    <h1>testando imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/grafit-p.jpg" type="image/jpg">
+        <source media="(max-width: 850px)" srcset="imagens/grafit-m.jpg" type="image/jpg">
+        <img src="imagens/grafit-g.jpg" alt="Versatile Img">
+    </picture>
+    <a href="pag03.html">
+        <p>Escute essa musica</p>
+    </a>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Eminem - Mockingbird [Official Music Video].mp3"controls type="audio/mpeg">
+        <source src="midia/Eminem - Mockingbird [Official Music Video].ogg" type="audio/ogg">
+
+    </audio>
+</body>
+</html>

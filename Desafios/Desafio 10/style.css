@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Bugdroid;
+    src: url(fontes/idroid.otf);
+}
+/* 
+shorthand font
+font-style
+font-weight
+font-size
+font-family
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+main { 
+   background-color: white;
+    padding: 20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 850px;
+    box-shadow: 0px 0px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+.bugdroid {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-color: #a8f8b5;
+}
+
+header {background-image: linear-gradient(rgb(5, 240, 5), rgb(4, 207, 4), rgb(3, 97, 3)
+)
+    
+    }
+header{
+    padding: 30px;
+    min-height: 150px;
+    
+}
+nav {
+    background-color: rgb(3, 97, 3);
+}
+
+    header > h1 {
+        font-size: 1.8em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: aliceblue;
+        
+    }
+
+    h1 {
+        text-shadow: 1.5px 1.5px 0px black;
+    }
+
+    header > p {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  white;
+        text-align: center;
+        
+    }
+    nav > a {
+        font-weight: bolder;
+         
+    }
+
+   nav {
+    padding-left: 0.5rem;
+    padding-bottom: 4px;
+    text-indent: 3px ;
+   }
+
+   nav > a:hover {
+    background-color: #002e08;
+   }
+
+   nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 5px;
+    transition-duration: 0.7s;   }
+    
+
+   article > h1 {
+    font-family: 'Bugdroid';
+    color: rgb(0, 200, 0);
+    text-indent: 1.5em;
+   }
+   article > h2 {
+    background-color: rgba(74, 252, 74, 0.555);
+    font-family: 'Bugdroid';
+    color: rgb(0, 100, 0);
+    text-indent: 1.3em;
+    margin-left: 18px;
+    margin-right: 18px;
+   }
+
+   article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1.5em;
+    text-align: justify;
+   }
+
+   .links {
+    color: rgb(0, 109, 0);
+    font-weight: bold;
+   }
+
+   #irinapic {
+   text-align: center;
+   }
+
+   .principalpic {
+    text-align: center;
+}
+
+   .destaques {
+    color: rgb(0, 109, 0);
+    font-weight: bold;
+   }
+   
+   .bugdroid {
+    text-align: center;
+   }
+   .video {
+    text-align: center;
+    background-color: rgb(14, 46, 14);
+    margin: 10px -20px -18px -20px;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+   }
+
+   .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+   }
+
+   aside {
+    background-color: #a8f8b5;
+    margin: 0px -20px 0px -20px;
+    
+   }
+
+   aside > h3 {
+    background-color: #329542;
+    color: white;
+    font-weight: bold;
+    text-indent: 1.3em;
+    padding: 5px;
+   }
+
+   aside > p {
+    text-indent: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify ;
+   }
+
+    .aside2 {
+        background-color: #a8f8b5;
+        padding-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: -5px -20px -22px -20px;
+        border-radius: 10px;
+    }
+
+    .aside2 > p {
+        text-indent: 10px;
+        padding: 5px;
+    }
+    
+    aside > ul {
+        columns: 2;
+    }
+
+    ul > li{
+    list-style: none;
+    list-style-position: inside;
+    margin-left: 10px;
+    
+
+}
+
+   
+   .version > p {
+    text-align: justify;
+    text-indent: 2px;
+   }
+.finalização {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8em;
+}
+footer {
+    
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+}
+
+li:hover {
+    background-color: #002e08;
+    
+}
+
+.bottons {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    
+}
+    
+
+    
+
+    

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.header-inner-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+    background-color: #6241D9;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #000000;
+    z-index: 99; 
+    }
+    
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2E0259;
+    text-shadow: 0.8px 0.8px 0.8px #5EC8F2;
+    }
+.Logo {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5EC8F2;
+    text-shadow: 1.2px 1.2px 1.2px #2E0259;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navcontainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.navcontainer img {
+width: 30px;
+cursor: pointer
+
+}
+
+.navcontainer img:first-child {
+    margin-right:  1rem;
+}
+
+nav ul li {
+    color: #ffffff;
+    margin-right: 1.5rem;
+}
+nav ul li:hover {
+    transform: translateY(5px);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+footer {
+display: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com google fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+        body {background-color: #B2A0F2;}
+    
+        h1 {
+    text-align: center;
+    color: white;
+        }
+        picture {
+         align-items: center;
+        }
+        .archivo-black-regular {
+        font-family: "Archivo Black", sans-serif;
+         font-weight: 400;
+        font-style: normal;
+        }
+    .rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="rowdies-light">Bem-Vindo ao Meta</h1>
+    <picture>
+        <source media="(max-width: 450px)" srcset="fonts/Troy Baker 400.jpeg" type="image/jpg">
+        <source media="(max-width: 650px)" srcset="fonts/Troy Baker 600.jpeg" type="image/jpg">
+        <source media="(max-width: 850px)" srcset="fonts/Troy Baker.jpeg" type="image/jpg">
+        <img src="fonts/Troy Baker.jpeg" alt="Capa">
+    </picture>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora porro beatae quo quidem doloremque, omnis accusantium enim laborum nisi soluta fugit exercitationem, corporis rerum deserunt aperiam nemo perferendis doloribus quia.</p>
+    <h2 class="archivo-black-regular">Viva sua aventura agora mesmo!</h2>
+    <p>Escolha agora qual historia quer viver nos diversos jogos de campanha disponiveis, e divirta-se jogando com personagens iconicos e suas jornadas deslumbrantes</p>
+</body>
+</html>
