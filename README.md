@@ -5,6 +5,4 @@
 
 #### You can view my progress and wait my personal development in progamming.
 
-#### The 10th challenge i create one page site and used Css to creat a design.
-
-#### However, the design style doesn't satisfy me, I know I can make it much more beautiful, its pattern just matches what the teacher specified in the challenge.
+#### The 10th challenge (firstsite-test) i create one page site and used Css to creat a design.
